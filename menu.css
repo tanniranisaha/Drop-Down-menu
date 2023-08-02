@@ -1,0 +1,50 @@
+
+
+body{
+font-family:'Oswald', sans-serif;
+line-height: 1;
+background-color: rgb(69, 23, 23);
+height: 500%;
+}
+
+#nav{
+	background-color: #e14444;
+	width: 800px;
+	height: 60px;
+	margin: 0 auto;
+}
+#nav ul li{
+	float: left;	
+	line-height: 40px;
+	text-align: center;
+	position: relative;
+    gap: 2rem;
+    list-style: none;
+    
+}
+#nav li a{
+	text-decoration: none;
+	color: #c9aaaa;
+	display: block;
+	padding: 0 10px;
+    font-size: 1rem;
+   
+}
+#nav li a:hover{
+	background-color: #666;
+	color: #fff;
+}
+#nav li:hover .second_menu{	
+	display: block;
+}
+.second_menu{
+	position: absolute;
+	display: none;
+}
+.second_menu li{
+	width: 100%;
+	margin-top: 3px;
+	padding: 0 -10px;
+	float: none;
+	background-color: #eee;
+}
